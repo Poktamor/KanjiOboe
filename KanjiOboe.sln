@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "kanjioboe.client", "kanjioboe.client\kanjioboe.client.esproj", "{22C450E2-F1A1-A7C9-D0A0-E19FFCFB4DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KanjiOboe.Server", "KanjiOboe.Server\KanjiOboe.Server.csproj", "{D24CCC84-C1FD-469E-8763-FBCACE825A91}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22C450E2-F1A1-A7C9-D0A0-E19FFCFB4DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22C450E2-F1A1-A7C9-D0A0-E19FFCFB4DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22C450E2-F1A1-A7C9-D0A0-E19FFCFB4DB3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{22C450E2-F1A1-A7C9-D0A0-E19FFCFB4DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22C450E2-F1A1-A7C9-D0A0-E19FFCFB4DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22C450E2-F1A1-A7C9-D0A0-E19FFCFB4DB3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{D24CCC84-C1FD-469E-8763-FBCACE825A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24CCC84-C1FD-469E-8763-FBCACE825A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24CCC84-C1FD-469E-8763-FBCACE825A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24CCC84-C1FD-469E-8763-FBCACE825A91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D4C21416-00DA-4CCD-8474-3D0ACB0E609D}
+	EndGlobalSection
+EndGlobal

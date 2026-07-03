@@ -1,0 +1,6 @@
+@KanjiOboe.Server_HostAddress = http://localhost:5002
+
+GET {{KanjiOboe.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
