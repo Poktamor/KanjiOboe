@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\HomeWork\\KanjiOboe\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\repositories\\deckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\repositories\\deckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\service\\deckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\service\\deckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\database\\entities\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\database\\entities\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DeckRepository.cs",
+              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Repositories\\DeckRepository.cs",
+              "RelativeDocumentMoniker": "KanjiOboe.Server\\Repositories\\DeckRepository.cs",
+              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Repositories\\DeckRepository.cs",
+              "RelativeToolTip": "KanjiOboe.Server\\Repositories\\DeckRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T14:37:35.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Database\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "KanjiOboe.Server\\Database\\AppDbContext.cs",
+              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Database\\AppDbContext.cs",
+              "RelativeToolTip": "KanjiOboe.Server\\Database\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T14:36:09.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Deck.cs",
+              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Database\\Entities\\Deck.cs",
+              "RelativeDocumentMoniker": "KanjiOboe.Server\\Database\\Entities\\Deck.cs",
+              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Database\\Entities\\Deck.cs",
+              "RelativeToolTip": "KanjiOboe.Server\\Database\\Entities\\Deck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T14:33:27.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DeckService.cs",
+              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Service\\DeckService.cs",
+              "RelativeDocumentMoniker": "KanjiOboe.Server\\Service\\DeckService.cs",
+              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Service\\DeckService.cs",
+              "RelativeToolTip": "KanjiOboe.Server\\Service\\DeckService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-08T14:20:54.428Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
