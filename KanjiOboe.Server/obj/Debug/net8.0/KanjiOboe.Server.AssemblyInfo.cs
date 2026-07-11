@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KanjiOboe.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c2daba731b855a75acfa2b368c34d30641cd6465")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1364225ac242fdde002485b024ef1ca05c4c5ddf")]
 [assembly: System.Reflection.AssemblyProductAttribute("KanjiOboe.Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KanjiOboe.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

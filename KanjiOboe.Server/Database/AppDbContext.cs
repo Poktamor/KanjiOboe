@@ -19,5 +19,10 @@ namespace KanjiOboe.Server
         public DbSet<User> Users { get; set; } = null!;
         public DbSet<Deck> Decks { get; set; } = null!;  
         public DbSet<Card> Cards { get; set; } = null!;
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
     }
 }

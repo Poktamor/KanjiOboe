@@ -30,7 +30,7 @@ namespace KanjiOboe.Server.Repositories
             return await _context.Decks.ToListAsync();
         }
 
-        public async Task<Deck?> GetDeckByIdAsync(int deckId)
+        public async Task<Deck?> GetDeckByIdAsync(long deckId)
         {
             return await _context.Decks.FindAsync(deckId);
         }

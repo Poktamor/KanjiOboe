@@ -7,7 +7,7 @@ namespace KanjiOboe.Server.Interfaces
         Task AddDeckAsync(Deck deck);
         void DeleteDeck(Deck deck);
         Task<IEnumerable<Deck>> GetAllDecksAsync();
-        Task<Deck?> GetDeckByIdAsync(int deckId);
+        Task<Deck?> GetDeckByIdAsync(long deckId);
         void UpdateDeck(Deck deck);
         Task SaveChangesAsync();
     }

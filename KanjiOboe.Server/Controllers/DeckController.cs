@@ -1,4 +1,5 @@
 ﻿using KanjiOboe.Server.Database.Entities;
+using KanjiOboe.Server.DTOs;
 using KanjiOboe.Server.Service;
 using Microsoft.AspNetCore.Mvc;
 
@@ -23,14 +24,28 @@ namespace KanjiOboe.Server.Controllers
             return Ok(decks);
         }
 
-        [HttpPost]
-        public async Task<ActionResult<Deck>> HttpCreateDeckAsync([FromBody] Deck deck)
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Deck>> HttpGetDeckByIdAsync(long id)
         {
-            // Implement the logic to create a new deck using the DeckService
-            // For example, you might have a method like _deckService.CreateDeckAsync(deck)
-            // After creating the deck, return the created deck with a 201 Created status code
-            // return CreatedAtAction(nameof(HttpGetDeckByIdAsync), new { id = createdDeck.Id }, createdDeck);
-            return Ok(); // Placeholder response
+            Deck? deck = await _deckService.GetDeckByIdAsync(id);
+            if (deck == null)
+            {
+                return NotFound();
+            }
+            return Ok(deck);
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Deck>> HttpCreateDeckAsync(CreateDeckDTO deckDTO)
+        {
+            await _deckService.CreateDeckAsync(deckDTO);
+            return CreatedAtAction(nameof(HttpGetDeckByIdAsync), new { id = deckDTO.OwnerId }, deckDTO);
+        }
+        [HttpPut("{id}")]
+        public async Task<ActionResult> HttpUpdateDeckAsync(long id, UpdateDeckDTO deckDTO)
+        {
+            await _deckService.UpdateDeckAsync(deckDTO, id);
+            return NoContent();
         }
     }
 }
