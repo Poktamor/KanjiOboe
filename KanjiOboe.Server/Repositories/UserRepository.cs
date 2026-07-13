@@ -11,9 +11,9 @@ namespace KanjiOboe.Server.Repositories
         {
             _context = context;
         }
-        public void AddUserAsync(User user)
+        public async Task AddUserAsync(User user)
         { 
-            _context.Users.Add(user);
+            await _context.Users.AddAsync(user);
         }
 
         public void DeleteUser(User user)
@@ -31,9 +31,14 @@ namespace KanjiOboe.Server.Repositories
             return await _context.Users.FindAsync(deckId);
         }
 
-        public void SaveChanges()
+        public async Task<User?> GetUserByEmailAsync(string email)
         {
-            _context.SaveChanges();
+            return await _context.Users.FirstOrDefaultAsync(e => e.Email == email);
+        }
+
+        public async Task SaveChangesAsync()
+        {
+            await _context.SaveChangesAsync();
         }
 
         public void UpdateUserAsync(User user)
