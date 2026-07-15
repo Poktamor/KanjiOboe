@@ -26,7 +26,7 @@ namespace KanjiOboe.Server.Repositories
             return await _context.Users.ToListAsync();
         }
 
-        public async Task<User?> GetUserByIdAsync(int deckId)
+        public async Task<User?> GetUserByIdAsync(long deckId)
         {
             return await _context.Users.FindAsync(deckId);
         }

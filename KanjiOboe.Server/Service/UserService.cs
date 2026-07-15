@@ -1,15 +1,16 @@
 ﻿using KanjiOboe.Server.Database.Entities;
 using KanjiOboe.Server.DTOs;
-using KanjiOboe.Server.Repositories;
+using KanjiOboe.Server.Interfaces;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace KanjiOboe.Server.Service
 {
     public class UserService
     {
-        private readonly UserRepository _userRepository;
+        private readonly IUserRepository _userRepository;
         private readonly PasswordHasher<User> _passwordHasher;
-        public UserService(UserRepository userRepository)
+        public UserService(IUserRepository userRepository)
         {
             _userRepository = userRepository;
             _passwordHasher = new PasswordHasher<User>();
@@ -23,6 +24,19 @@ namespace KanjiOboe.Server.Service
             }
             var result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, password);
             return result == PasswordVerificationResult.Success;
+        }
+
+        public async Task<User?> AuthenticateAsync(string email, string password)
+        {
+            User? user = await _userRepository.GetUserByEmailAsync(email);
+            if (user == null)
+            {
+                return null;
+            }
+            var result = _passwordHasher.VerifyHashedPassword(user, user.PasswordHash, password);
+            if (result == PasswordVerificationResult.Failed)
+                return null;
+            return user;
         }
 
         public async Task RegisterUserAsync(RegisterUserDTO registerUserDTO)
@@ -41,6 +55,16 @@ namespace KanjiOboe.Server.Service
             user.PasswordHash = _passwordHasher.HashPassword(user, registerUserDTO.Password);
 
             await _userRepository.AddUserAsync(user);
+            await _userRepository.SaveChangesAsync();
+        }
+
+        public async Task DeleteUserAsync(long userId)
+        {
+            User? user = await _userRepository.GetUserByIdAsync(userId);
+            if (user == null)
+                throw new Exception("User does not exist");
+
+            _userRepository.DeleteUser(user);
             await _userRepository.SaveChangesAsync();
         }
     }

@@ -1,15 +1,12 @@
 ﻿using KanjiOboe.Server.Database.Entities;
 using KanjiOboe.Server.DTOs;
-using KanjiOboe.Server.Repositories;
-using Microsoft.AspNetCore.Mvc;
-using System.Collections;
-
+using KanjiOboe.Server.Interfaces;
 namespace KanjiOboe.Server.Service
 {
     public class DeckService
     {
-        private readonly DeckRepository _deckRepository;
-        public DeckService(DeckRepository deckRepository)
+        private readonly IDeckRepository _deckRepository;
+        public DeckService(IDeckRepository deckRepository)
         {
             _deckRepository = deckRepository;
         }

@@ -3,40 +3,20 @@
   "WorkspaceRootPath": "E:\\HomeWork\\KanjiOboe\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\database\\entities\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\database\\entities\\deck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\dtos\\deckdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\dtos\\deckdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\dtos\\createdeckdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\dtos\\createdeckdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\controllers\\deckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\controllers\\deckcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\service\\deckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\service\\deckservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\database\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\repositories\\deckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\repositories\\deckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\interfaces\\ideckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\interfaces\\ideckrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|e:\\homework\\kanjioboe\\kanjioboe.server\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D24CCC84-C1FD-469E-8763-FBCACE825A91}|KanjiOboe.Server\\KanjiOboe.Server.csproj|solutionrelative:kanjioboe.server\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Deck.cs",
-              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Database\\Entities\\Deck.cs",
-              "RelativeDocumentMoniker": "KanjiOboe.Server\\Database\\Entities\\Deck.cs",
-              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Database\\Entities\\Deck.cs",
-              "RelativeToolTip": "KanjiOboe.Server\\Database\\Entities\\Deck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T15:23:56.552Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateDeckDTO.cs",
-              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\DTOs\\CreateDeckDTO.cs",
-              "RelativeDocumentMoniker": "KanjiOboe.Server\\DTOs\\CreateDeckDTO.cs",
-              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\DTOs\\CreateDeckDTO.cs",
-              "RelativeToolTip": "KanjiOboe.Server\\DTOs\\CreateDeckDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T11:50:24.775Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DeckDTO.cs",
-              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\DTOs\\DeckDTO.cs",
-              "RelativeDocumentMoniker": "KanjiOboe.Server\\DTOs\\DeckDTO.cs",
-              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\DTOs\\DeckDTO.cs",
-              "RelativeToolTip": "KanjiOboe.Server\\DTOs\\DeckDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T11:50:15.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IDeckRepository.cs",
-              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Interfaces\\IDeckRepository.cs",
-              "RelativeDocumentMoniker": "KanjiOboe.Server\\Interfaces\\IDeckRepository.cs",
-              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Interfaces\\IDeckRepository.cs",
-              "RelativeToolTip": "KanjiOboe.Server\\Interfaces\\IDeckRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T11:39:17.733Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DeckRepository.cs",
-              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Repositories\\DeckRepository.cs",
-              "RelativeDocumentMoniker": "KanjiOboe.Server\\Repositories\\DeckRepository.cs",
-              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Repositories\\DeckRepository.cs",
-              "RelativeToolTip": "KanjiOboe.Server\\Repositories\\DeckRepository.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAgAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-10T11:38:23.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Database\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "KanjiOboe.Server\\Database\\AppDbContext.cs",
-              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Database\\AppDbContext.cs",
-              "RelativeToolTip": "KanjiOboe.Server\\Database\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T14:22:54.573Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "KanjiOboe.Server\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "KanjiOboe.Server\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T13:52:46.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "DeckController.cs",
               "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Controllers\\DeckController.cs",
               "RelativeDocumentMoniker": "KanjiOboe.Server\\Controllers\\DeckController.cs",
               "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Controllers\\DeckController.cs",
               "RelativeToolTip": "KanjiOboe.Server\\Controllers\\DeckController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA4wCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T13:51:19.989Z",
+              "WhenOpened": "2026-07-15T08:28:48.899Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DeckService.cs",
-              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Service\\DeckService.cs",
-              "RelativeDocumentMoniker": "KanjiOboe.Server\\Service\\DeckService.cs",
-              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Service\\DeckService.cs",
-              "RelativeToolTip": "KanjiOboe.Server\\Service\\DeckService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "KanjiOboe.Server\\Repositories\\UserRepository.cs",
+              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "KanjiOboe.Server\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-09T13:51:05.266Z",
+              "WhenOpened": "2026-07-15T08:28:36.364Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "KanjiOboe.Server\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "KanjiOboe.Server\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T08:25:39.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "KanjiOboe.Server\\Controllers\\UserController.cs",
+              "ToolTip": "E:\\HomeWork\\KanjiOboe\\KanjiOboe.Server\\Controllers\\UserController.cs",
+              "RelativeToolTip": "KanjiOboe.Server\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T08:17:01.651Z",
               "EditorCaption": ""
             }
           ]

@@ -14,9 +14,9 @@ namespace KanjiOboe.Server.Repositories
             _context = context;
         }
 
-        public void AddCardAsync(Card card)
+        public async Task AddCardAsync(Card card)
         {
-            _context.Cards.Add(card);
+            await _context.Cards.AddAsync(card);
         }
 
         public void DeleteCard(Card card)
@@ -34,14 +34,14 @@ namespace KanjiOboe.Server.Repositories
             return await _context.Cards.FindAsync(cardId);
         }
 
-        public void UpdateCardAsync(Card card)
+        public void UpdateCard(Card card)
         {
             _context.Cards.Update(card);
         }
 
-        public void SaveChanges()
+        public async Task SaveChangesAsync()
         {
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
         }
     }
 }

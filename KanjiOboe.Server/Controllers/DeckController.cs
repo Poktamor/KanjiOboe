@@ -1,7 +1,9 @@
 ﻿using KanjiOboe.Server.Database.Entities;
 using KanjiOboe.Server.DTOs;
 using KanjiOboe.Server.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace KanjiOboe.Server.Controllers
 {
@@ -25,7 +27,7 @@ namespace KanjiOboe.Server.Controllers
         }
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<Deck>> HttpGetDeckByIdAsync(long id)
+        public async Task<ActionResult<DeckDTO>> HttpGetDeckByIdAsync(long id)
         {
             Deck? deck = await _deckService.GetDeckByIdAsync(id);
             if (deck == null)
@@ -36,12 +38,12 @@ namespace KanjiOboe.Server.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Deck>> HttpCreateDeckAsync(CreateDeckDTO deckDTO)
+        public async Task<ActionResult<DeckDTO>> HttpCreateDeckAsync(CreateDeckDTO deckDTO)
         {
             await _deckService.CreateDeckAsync(deckDTO);
             return CreatedAtAction(nameof(HttpGetDeckByIdAsync), new { id = deckDTO.OwnerId }, deckDTO);
         }
-        [HttpPut("{id}")]
+        [HttpPut]
         public async Task<ActionResult> HttpUpdateDeckAsync(long id, UpdateDeckDTO deckDTO)
         {
             await _deckService.UpdateDeckAsync(deckDTO, id);

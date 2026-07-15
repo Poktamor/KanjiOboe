@@ -1,3 +1,7 @@
+using KanjiOboe.Server.Interfaces;
+using KanjiOboe.Server.Repositories;
+using KanjiOboe.Server.Service;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace KanjiOboe.Server
 {
@@ -8,6 +12,12 @@ namespace KanjiOboe.Server
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddScoped<IUserRepository, UserRepository>();
+            builder.Services.AddScoped<IDeckRepository, DeckRepository>();
+            builder.Services.AddScoped<ICardRepository, CardRepository>();
+
+            builder.Services.AddScoped<UserService>();
+            builder.Services.AddScoped<DeckService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
@@ -15,8 +25,20 @@ namespace KanjiOboe.Server
             builder.Services.AddSwaggerGen();
 
             builder.Services.AddDbContext<AppDbContext>();
+            builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
+                .AddCookie(options =>
+                {
+                    options.LoginPath = "/api/user/login";
+                    options.LogoutPath = "/api/user/logout";
+                    options.ExpireTimeSpan = TimeSpan.FromDays(7);
+                });
+
+            builder.Services.AddAuthorization();
 
             var app = builder.Build();
+
+            app.UseAuthentication();
+            app.UseAuthorization();
 
             app.UseDefaultFiles();
             app.UseStaticFiles();
