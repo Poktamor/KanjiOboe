@@ -40,8 +40,9 @@ namespace KanjiOboe.Server.Controllers
         [HttpPost]
         public async Task<ActionResult<DeckDTO>> HttpCreateDeckAsync(CreateDeckDTO deckDTO)
         {
+            Deck deck = await _deckService.CreateDeckAsync(deckDTO);
             await _deckService.CreateDeckAsync(deckDTO);
-            return CreatedAtAction(nameof(HttpGetDeckByIdAsync), new { id = deckDTO.OwnerId }, deckDTO);
+            return CreatedAtAction(nameof(HttpGetDeckByIdAsync), new { id = deck.DeckId }, deckDTO);
         }
         [HttpPut]
         public async Task<ActionResult> HttpUpdateDeckAsync(long id, UpdateDeckDTO deckDTO)

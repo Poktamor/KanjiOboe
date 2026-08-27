@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace KanjiOboe.Server.Service
 {
-    public class UserService
+    public class UserService : IUserService
     {
         private readonly IUserRepository _userRepository;
         private readonly PasswordHasher<User> _passwordHasher;

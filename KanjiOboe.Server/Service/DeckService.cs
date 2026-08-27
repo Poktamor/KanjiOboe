@@ -3,7 +3,7 @@ using KanjiOboe.Server.DTOs;
 using KanjiOboe.Server.Interfaces;
 namespace KanjiOboe.Server.Service
 {
-    public class DeckService
+    public class DeckService : IDeckService
     {
         private readonly IDeckRepository _deckRepository;
         public DeckService(IDeckRepository deckRepository)
@@ -22,7 +22,7 @@ namespace KanjiOboe.Server.Service
             return await _deckRepository.GetDeckByIdAsync(id);
         }
 
-        public async Task CreateDeckAsync(CreateDeckDTO deckDTO)
+        public async Task<Deck> CreateDeckAsync(CreateDeckDTO deckDTO)
         {
             Deck deck = new Deck
             {
@@ -32,6 +32,7 @@ namespace KanjiOboe.Server.Service
             };
             await _deckRepository.AddDeckAsync(deck);
             await _deckRepository.SaveChangesAsync();
+            return deck;
         }
 
         public async Task UpdateDeckAsync(UpdateDeckDTO deckDTO, long id)

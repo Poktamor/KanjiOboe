@@ -16,8 +16,9 @@ namespace KanjiOboe.Server
             builder.Services.AddScoped<IDeckRepository, DeckRepository>();
             builder.Services.AddScoped<ICardRepository, CardRepository>();
 
-            builder.Services.AddScoped<UserService>();
-            builder.Services.AddScoped<DeckService>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IDeckService, DeckService>();
+            builder.Services.AddScoped<ICardService, CardService>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

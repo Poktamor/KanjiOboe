@@ -14,7 +14,7 @@ namespace KanjiOboe.Server.Repositories
             _context = context;
         }
 
-        public async Task AddCardAsync(Card card)
+        public async Task CreateCardAsync(Card card)
         {
             await _context.Cards.AddAsync(card);
         }
@@ -29,7 +29,7 @@ namespace KanjiOboe.Server.Repositories
             return await _context.Cards.ToListAsync();
         }
 
-        public async Task<Card?> GetCardByIdAsync(int cardId)
+        public async Task<Card?> GetCardByIdAsync(long cardId)
         {
             return await _context.Cards.FindAsync(cardId);
         }
@@ -42,6 +42,11 @@ namespace KanjiOboe.Server.Repositories
         public async Task SaveChangesAsync()
         {
             await _context.SaveChangesAsync();
+        }
+
+        public async Task<IEnumerable<Card>> GetAllCardsByDeckId(long deckId)
+        {
+            return await _context.Cards.Where(c => c.DeckId == deckId).ToListAsync();
         }
     }
 }

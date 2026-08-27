@@ -4,10 +4,11 @@ namespace KanjiOboe.Server.Interfaces
 {
     public interface ICardRepository
     {
-        Task AddCardAsync(Card card);
+        Task CreateCardAsync(Card card);
         void DeleteCard(Card card);
         Task<IEnumerable<Card>> GetAllCardsAsync();
-        Task<Card?> GetCardByIdAsync(int cardId);
+        Task<Card?> GetCardByIdAsync(long cardId);
+        Task<IEnumerable<Card>> GetAllCardsByDeckId(long deckId);
         void UpdateCard(Card card);
         Task SaveChangesAsync();
     }
